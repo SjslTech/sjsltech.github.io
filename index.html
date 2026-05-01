@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SjslTech | Hub</title>
+    <style>
+        :root {
+            --bg-color: #0f0f0f;
+            --card-bg: #1e1e1e;
+            --text-color: #ffffff;
+            --accent-color: #00aaff;
+            --secondary-text: #aaaaaa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .profile-logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid var(--accent-color);
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        h1 {
+            margin: 10px 0;
+            font-size: 1.8rem;
+        }
+
+        p.subtitle {
+            color: var(--secondary-text);
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            text-align: left;
+            font-size: 0.9rem;
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 20px 0 10px 5px;
+        }
+
+        .link-card {
+            background-color: var(--card-bg);
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 12px;
+            display: block;
+            text-decoration: none;
+            color: white;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .link-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--accent-color);
+        }
+
+        .link-card h3 {
+            margin: 0;
+            font-size: 1.1rem;
+        }
+
+        .link-card p {
+            margin: 5px 0 0;
+            font-size: 0.85rem;
+            color: var(--secondary-text);
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: var(--secondary-text);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Replace 'logo.png' with your actual logo filename in the repo -->
+        <img src="logo.png" alt="SjslTech Logo" class="profile-logo">
+        
+        <h1>SjslTech</h1>
+        <p class="subtitle">Tech Content Creator | Retro Handhelds</p>
+
+        <div class="section-title">Projects & Tools</div>
+        
+        <a href="R36S.html" class="link-card">
+            <h3>R36S & Variants</h3>
+            <p>A Collection of Scripts, Tools & Guides for The RK3326 Based R36S & Its Variants</p>
+        </a>
+
+        <a href="R36SX.html" class="link-card">
+            <h3>R36SX (GB350 Clone)</h3>
+            <p>A Collection of Scripts, Tools & Guides for The GB350 Clone Known as the R36SX</p>
+        </a>
+
+        <div class="section-title">Connect</div>
+
+        <a href="https://youtube.com/@SjslTech" class="link-card">
+            <h3>YouTube</h3>
+            <p>Tech reviews, tutorials, and deep dives.</p>
+        </a>
+
+        <a href="https://github.com/SjslTech" class="link-card">
+            <h3>GitHub</h3>
+            <p>Source code and repository archives.</p>
+        </a>
+
+        <footer>
+            &copy; 2026 SjslTech. Built with GitHub Pages.
+        </footer>
+    </div>
+
+</body>
+</html>
